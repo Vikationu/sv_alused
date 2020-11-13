@@ -1,0 +1,11 @@
+1. Paigaldamine
+
+Linux : apt-get install git
+
+2. Seadistamine (töötava kasutaja alt)
+
+$ git config --global user.name "Raigo Hoim"
+$ git config --global user.email raigo.hoim@khk.ee
+$ git config --global core.editor nano
+
+

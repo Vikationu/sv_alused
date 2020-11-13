@@ -23,4 +23,6 @@ b) muudatuse uurimine
 git log
 git show commiti_hash
 
-
+5. Remote kasutamine
+a) github repo ühenduse lisamiseks  git remote add origin https://github.com/Vikationu/sv_alused.git
+b) git push -u origin master

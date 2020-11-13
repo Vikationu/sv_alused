@@ -3,4 +3,8 @@
 # kasutaja tervitus
 # autor - Raigo Hoim
 #
-echo "Tere, kasutaja!"
+echo -n "Tere, "
+echo -n $(whoami)
+echo "!"
+
+

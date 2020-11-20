@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+# yl1.sh muutmine, andmete sisestus skripti käivitamisel
+# autor Raigo Hoim
+#
+number=$1
+arv=$number
+if [ $(($number%2)) -eq 0 ]
+  then
+        echo "$arv on paaris"
+  else
+        echo "$arv on paaritu"
+fi
+
+
+

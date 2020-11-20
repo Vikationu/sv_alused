@@ -17,3 +17,6 @@ else #### nested if i.e if within if ######
 		echo "Why you don't like Unix/Linux OS."
 	fi
 fi
+#Käivitades skripti,saad valida kas 1 või 2. Valides 1 ütleb skript sulle et valisid Unix (Sun Os) operatsiooni.
+#Käivitades skripti uuesti ja valides 2, ütleb skript sulle, et valisid Linux (Red Hat) operatsiooni.
+#Käivitades skripti uuesti ja valida numbriks nt 3 - viskab ette teksti, kus küsib et miks sulle ei meeldi Unix/Linux.

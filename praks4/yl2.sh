@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# 
+# reisi korraldamine
 # autor Raigo Hoim
 #
 # Andmed
@@ -8,10 +8,10 @@ echo -n "Mitu inimest on grupis?:"
 read reisijad
 echo -n "Mitu kohta on bussis?:"
 read kohad
-var1=$(( $reisijad-$kohad ))
-if [ $var1 -eq 0 ]
+bussid=$(($reisijad / $kohad))
+ylejaanud=$(($reisijad % $kohad))
+if test $ylejaanud -gt 0 
   then
-	echo "On vaja lisa bussi"
-  else
-	echo "Bussis on $var1 vaba kohta"
+	echo bussid=$(($bussid + 1))
 fi
+	echo "kokku on vaja $bussid bussi"
